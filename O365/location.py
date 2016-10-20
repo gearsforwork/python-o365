@@ -15,7 +15,7 @@ class Location( object ):
 	Methods:
 		setLocation - sets the location of the event.
 	'''
-	con_url = 'https://outlook.office365.com/api/v1.0/me/contacts/{0}'
+	con_url = 'https://outlook.office365.com/api/v1.0/me/events/{0}'
 	time_string = '%Y-%m-%dT%H:%M:%SZ'
 
 	def __init__(self, json=None, auth=None):
